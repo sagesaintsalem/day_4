@@ -1,0 +1,49 @@
+What is a module?
+<details>
+<summary>Answer</summary>
+A file which contains Python code
+</details>
+</br>
+
+Why do we use modules?
+<details>
+<summary>Answer</summary>
+To help organise our code
+</details>
+</br>
+
+Which keyword do we use to get access to the code in an module?
+<details>
+<summary>Answer</summary>
+The `import` keyword e.g. `import calculator`
+</details>
+</br>
+
+How do we access the code imported from a module?
+<details>
+<summary>Answer</summary>
+1. By putting the module name before the code e.g. `calculator.add`
+2. By specifically saying that we want to import the code e.g. `from calculator import add`
+</details>
+</br>
+
+What file do we need in our directory to let Python know that it is being used as a package?
+<details>
+<summary>Answer</summary>
+An empty `__init__.py` file
+</details>
+</br>
+
+How do we import a module from a package?
+<details>
+<summary>Answer</summary>
+
+By putting the package name before the module e.g. `import modules.calculator`
+</details>
+</br>
+
+## Conclusion
+
+We have seen that modules are files containing Python code and that we use them to organise our code. We have also seen that, by using the `import` keyword in our Python files we can access code in other modules. 
+We can also organise our modules into packages and be able to import modules from packages.
+
